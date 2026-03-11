@@ -24,11 +24,20 @@ function Welcome() {
         <Image alt="vite" src={viteLogo} />
         <Image alt="typescript" src={tsLogo} />
         {/* <Image alt="react" src={reactLogo} sx={{ width, height }} /> */}
-        <Image alt="react" src={'https://cdn.jsdelivr.net/gh/0326/imgs@main/blog/aicosx1300%20(1).png'} sx={{ width, height }} />
+        <Image
+          alt="react"
+          src={'https://cdn.jsdelivr.net/gh/0326/imgs@main/blog/aicosx1300%20(1).png'}
+          sx={{ width, height }}
+        />
         <Image alt="mui" src={muiLogo} />
         <Image alt="recoil" src={recoilLogo} />
         <Image alt="pwa" src={pwaLogo} />
       </FullSizeCentered>
+      <div style={{ textAlign: 'center', position: 'fixed', bottom: 10, width: '100%' }}>
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
+          浙ICP备2023020062号-7
+        </a>
+      </div>
     </>
   );
 }
